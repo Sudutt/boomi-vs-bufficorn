@@ -1,16 +1,19 @@
 /* Courtesy: https://codepen.io/mynoralexander/pen/gpyYOo */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
 body {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 p {
-    color: #666;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap);
 h2 {
     font-size: 2em;
-    color: #e74c3c;
+    color: white;
 }
 
 .centered {
@@ -30,7 +33,7 @@ Header styles minus menu
 --------------------------------------------------------------*/
 
 .masthead {
-    background: #e74c3c;
+    background: #000000;
     box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
 }
 
@@ -68,7 +71,7 @@ Header styles minus menu
 /* Card Based Layout - Base styles */
 
 body {
-    background: #ecf0f1;
+    background: rgb(1, 4, 39);
     line-height: 1.4;
 }
 
@@ -77,7 +80,7 @@ body {
 }
 
 .card {
-    background: white;
+    background: #FF4C8B;
     margin-bottom: 2em;
 }
 
