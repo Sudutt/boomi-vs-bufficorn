@@ -1,0 +1,15 @@
+# VS Code Settings
+.vscode
+
+# Personal testing folder
+test
+raw-data
+
+# Python environment
+virtual
+env
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
