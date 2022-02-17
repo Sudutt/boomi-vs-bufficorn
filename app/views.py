@@ -3,9 +3,11 @@ from .covalent_api import random_nft_data
 
 from . import app
 
+
 @app.route('/', methods=['GET'])
 def index():
     return render_template('entry.html')
+
 
 @app.route('/arena', methods=['GET'])
 def entry():
