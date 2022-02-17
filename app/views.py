@@ -1,7 +1,7 @@
-from flask import request
+from flask import render_template
 
 from . import app
 
 @app.route('/', methods=['GET'])
 def index():
-    return 'Hello, World!'
+    return render_template('index.html')
