@@ -109,11 +109,24 @@ body {
 }
 
 img {
-    width: 20%;
+    width: 100%;
     height: auto;
 }
 
 .buttoncenter {
+    text-align: center;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap);
+table {
+    border-collapse: separate;
+    width: 100%;
+    color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+}
+
+td {
     text-align: center;
 }
 
