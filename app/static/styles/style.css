@@ -6,12 +6,13 @@ body {
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    text-align: center;
     color: white;
 }
 
 @import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap);
 h2 {
+    font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     color: white;
 }
@@ -108,8 +109,12 @@ body {
 }
 
 img {
-    width: 100%;
+    width: 20%;
     height: auto;
+}
+
+.buttoncenter {
+    text-align: center;
 }
 
 
